@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<section class="code-section">
+    <code>
+        <span>.container</span>
+        <span class="bracket">{</span>
+        <br />
+        <div class="code-inputs">
+            <span>border-image-slice</span>:
+            <input type='number' value="0" min=0 max="100" />
+            <input type='number' value="70" min=0 max="100" />
+            <input type='number' value="75" min=0 max="100" />
+            <input type='number' value="0" min=0 max="100" />
+            <select>
+                <option value="no suffix">no suffix</option>
+                <option value="%">%</option>
+            </select>
+            ;
+            <div class="fill-section">
+                <input id='fill-checkbox' type='checkbox' checked='true' />
+                <label for='fill-checkbox' class="code-value">fill</label>
+            </div>
+            <br />
+            <span>border-image-repeat</span>: <span class="code-value">stretch</span>;
+            <br />
+        </div>
+        <span class='bracket'>}</span>
+    </code>
+</section>
+
+<section class='container'></section>
+<script src="script.js"></script>
+</body>
+</html>

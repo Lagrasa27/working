@@ -1,0 +1,78 @@
+:root {
+    --border-repeat: stretch;
+    --border-style: ridge;
+    --border-image-slice: 70 75 fill;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    background-color: #DCAE96;
+}
+section{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding: 2rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-image-source: url('https://img.freepik.com/free-vector/gradient-glassmorphism-background_23-2149447863.jpg?w=740&t=st=1669374788~exp=1669375388~hmac=d1be5769a3b68e6441d54df7954be072a1f8f476d0d26b26ff8380018c1175a4');
+    border-image-slice: var(--border-image-slice);
+    border-image-repeat: var(--border-repeat);
+    border-width: 2.5rem;
+    width: 15rem;
+    border-color: grey;
+    border-style: var(--border-style);
+    transition: all 0.3s ease;
+}
+/* code section */
+.code-section{
+    width: 30rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    background: #1e1e1e;
+    color: white;
+}
+.code-section span{
+    color: rgba(188,212,42,1);
+}
+span.bracket{
+    color:white;
+}
+span.code-value, label.code-value{
+    color: rgba(255,106,56,1);
+}
+.code-section code .code-inputs{
+    padding-left: 1rem;
+}
+.code-section code .fill-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.fill-section label{
+    margin: 0;
+    width: 0;
+}
+.fill-section input{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 1rem;
+}
+.code-inputs input[type="number"]{
+    width: 3rem;
+    text-align: center;
+}
