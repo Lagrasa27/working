@@ -1,0 +1,129 @@
+:root {
+    --baseFontSize: 2.5vw;
+    --lyricWindowWidth: 66vw;
+    /* Spacer is visible if this is odd. Count 'em all, even the spacer. */
+    /* hmm any way to calculate this? In CSS, not JS. */
+    --numStanzas: 19;
+}
+
+body {
+    margin: 0 auto;
+    background-color:#454545;
+}
+
+.deadcenter {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw; min-width:100vw;
+    height:100vh; min-height:100vh;
+}
+
+/* We are going to make this static with respect to the width of the page.
+   Resizing and keeping things centered is too tricky, and
+   we'd have to animate it which is even a tough aesthetic decision. */
+.curved-corner-block {
+    border-radius: 4.1em;
+    background: linear-gradient(white 1%, aqua 30% 70%, white 89%);
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--lyricWindowWidth); min-width: var(--lyricWindowWidth);
+    max-height: 77vh; min-height: 77vh;
+    overflow: hidden;
+}
+
+#song-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    background: rgba(100, 100, 100, 0.1);
+}
+
+.lyrics {
+    font-family: 'courier';
+    font-size: var(--baseFontSize);
+    line-height: 1.6em; /* calc(var(--baseFontSize) * 1.6); */
+    color: red;
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+    box-sizing: border-content;
+    width:var(--lyricWindowWidth); min-width:var(--lyricWindowWidth); max-width:var(--lyricWindowWidth);
+}
+
+.lyrics-container {
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: auto 1em;
+}
+
+.lyrics-content {
+    text-align: left;
+}
+
+.lyrics-bridge {
+    color: goldenrod;
+    text-align: center;
+}
+
+.blinking-cursor  {
+    display: inline-block; /* vital */
+    background-color: #000000;
+    font-size: 0.3em;
+    vertical-align: text-bottom;
+    line-height: calc(1.6em * (1.0/0.3) * 0.8);
+    max-height: calc(1.6em * (1.0/0.3) * 0.8);
+    margin: 0 0 calc(1.6em * 0.3 * 1.2) 0;
+
+    animation: cursor-blink 1s infinite;
+}
+@keyframes cursor-blink {   0%   {opacity:  0%}
+    15%   {opacity:100%}
+    65%   {opacity:100%}
+    100%   {opacity:  0%} }
+
+.nav-button {
+    display: flex;
+    background-color: aqua;
+    font-size: 2.4em;
+    font-family: sans-serif;
+    padding: 0.5em;
+    z-index: 999;
+}
+
+#nav-next {
+    border-radius: 0 0.3em 0.3em 0;
+    margin: 0 0 0 0.3em;
+    transform: translateX(-20%);
+}
+#nav-prev {
+    border-radius: 0.3em 0 0 0.3em;
+    margin: 0 0.3em 0 0em;
+    transform: translateX(20%)
+}
+
+.btn-enabled {
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+
+.btn-disabled {
+    cursor: initial;
+    color: lightgrey;
+    opacity: 0;  /* better than the above */
+}
+
+.slide-over-left { animation: slide-one-left 1000ms ease-out 1 forwards;}
+@keyframes slide-one-left { to { transform: translateX(calc(-100%/var(--numStanzas))) } }
+
+.slide-over-right { animation: slide-one-right 1000ms ease-out 1 forwards;}
+@keyframes slide-one-right { to { transform: translateX(calc(100%/var(--numStanzas))) } }
