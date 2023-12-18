@@ -1,0 +1,52 @@
+:root {
+    --text: #333;
+    color-scheme: light;
+}
+
+body {
+    display: grid;
+    font-size: 1.25rem;
+    place-items: center;
+}
+
+section {
+    width: 300px;
+}
+
+form, form > * {
+    margin-block-end: 1rem;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.075);
+    color: var(--text);
+    padding: 1rem 1.5rem;
+    width: 300px;
+}
+
+input[type="text"], textarea, button {
+    color: var(--text);
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    height: 20px;
+}
+
+.dark {
+    --text: #ddd;
+    color-scheme: dark;
+}
+
+.dark form {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.dark input[type="text"],
+.dark textarea {
+    --text: #ddd;
+}
