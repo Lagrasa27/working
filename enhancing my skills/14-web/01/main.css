@@ -1,0 +1,42 @@
+html{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgrey;
+    width: 100%;
+    height: 6rem;
+    position: relative;
+}
+
+
+.firstnav{
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+
+}
+
+.firstlist{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    border: 1px solid black;
+    width: 100%;
+    list-style: none;
+
+}
+
+li{
+    background-color: #1b1f21;
+    
+}
+
+
+
