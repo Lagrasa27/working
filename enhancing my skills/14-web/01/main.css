@@ -36,6 +36,7 @@ html{
 .second{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 30rem;
     width: 100%;
     background-color: slateblue;
@@ -44,9 +45,9 @@ html{
 }
 
 .cards{
-    margin-top: 130px;
     display: flex;
     justify-content: center;
+    align-items: center;
     height:10rem;
     width: 10rem;
     background-color: cadetblue;
