@@ -33,10 +33,28 @@ html{
 
 }
 
-li{
-    background-color: #1b1f21;
-    
+.second{
+    display: flex;
+    justify-content: space-around;
+    height: 30rem;
+    width: 100%;
+    background-color: slateblue;
+
+
 }
 
+.cards{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    height:10rem;
+    width: 10rem;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
 
+p{
+    color: white;
+    text-align: center;
+}
 
