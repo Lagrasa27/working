@@ -1,3 +1,5 @@
+//example
+
 let ken = 'mantequilla'
 
 console.log(ken.toUpperCase());
@@ -9,13 +11,14 @@ console.log(mouse.indexOf('k'));
 let micky = 'exam';
 
 console.log(micky.trim('x'));
-
+//example
 let email = 'jorgeken@gmail.com';
 
 let result = email.includes('@');
 
 console.log(result);
 
+// example
 let score = '100';
 
 score = Number(score);
