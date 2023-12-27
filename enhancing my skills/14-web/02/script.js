@@ -6,3 +6,5 @@ let buttons = document.querySelectorAll('.submenu-toggle-button');
         submenu.classList.toggle('open');
     });
 });
+
+
