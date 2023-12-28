@@ -56,3 +56,15 @@ while( i < 30 ){
     console.log('loop',i)
     i++;
 }
+
+//example
+
+const password = 'passord45';
+
+if(password.length >= 12 ){
+    console.log( 'password is very secure');
+}else if (password.length >= 8){
+    console.log('password is enough')
+}else {
+    console.log('password is not long enought')
+}
