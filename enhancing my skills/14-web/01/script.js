@@ -47,3 +47,12 @@ const CSV_to_JSON = (data, delimiter = ',') => {
 };
 console.log(CSV_to_JSON('col1,col2\na,b\nc,d')); // [{'col1': 'a', 'col2': 'b'}, {'col1': 'c', 'col2': 'd'}];
 console.log(CSV_to_JSON('col1;col2\na;b\nc;d', ';')); // [{'col1': 'a', 'col2': 'b'}, {'col1': 'c', 'col2': 'd'}];
+
+//example
+
+i = 10
+
+while( i < 30 ){
+    console.log('loop',i)
+    i++;
+}
