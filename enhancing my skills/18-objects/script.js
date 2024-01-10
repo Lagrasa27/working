@@ -52,7 +52,6 @@ user.logComment()
 
 
 //example
-
 console.log(Math.PI);
 
 const area = 5.5;
