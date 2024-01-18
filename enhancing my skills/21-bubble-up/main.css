@@ -1,0 +1,21 @@
+h1{
+    margin: auto;
+    color: crimson;
+    font-size: 65px;
+}
+
+li{
+    background-color: darkgrey;
+    color: white;
+    margin: 10px;
+    max-width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px dotted black;
+
+
+}
+
+button {
+    margin-top: 10px;
+}
