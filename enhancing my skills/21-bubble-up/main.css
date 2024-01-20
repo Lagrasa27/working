@@ -19,3 +19,9 @@ li{
 button {
     margin-top: 10px;
 }
+
+.square{
+    height: 500px;
+    width: 300px;
+    background-color: gainsboro;
+}
