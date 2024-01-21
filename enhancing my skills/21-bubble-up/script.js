@@ -1,6 +1,7 @@
 const button = document.querySelector("button");
 const ul = document.querySelector('ul');
 const cuadro = document.querySelector('.square');
+let para = document.querySelector('p');
 
 // ul.remove();
 
@@ -44,3 +45,6 @@ cuadro.addEventListener('mousemove', (e) =>{
     // console.log(e);
     cuadro.textContent = `x pos - ${e.offsetX} y pos - ${e.offsetY}`;
 });
+
+//para
+para.textContent += 'adding this text as wells';

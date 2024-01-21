@@ -25,3 +25,10 @@ button {
     width: 300px;
     background-color: gainsboro;
 }
+
+p{
+    background-color: black;
+    color: white;
+    height: 25px;
+
+}
