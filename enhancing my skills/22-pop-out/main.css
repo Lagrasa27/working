@@ -22,3 +22,9 @@ button{
     width: 70px;
     background-color:#990000 ;
 }
+
+P{
+    font-size: 18px;
+        color: #333;
+        line-height: 1.5;
+}
