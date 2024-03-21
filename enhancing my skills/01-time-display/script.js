@@ -47,3 +47,5 @@ if (hour === 0 && prepand === ' AM ') {
 
 // Display the current time
 console.log(`Current Time: ${hour}${prepand} : ${minute} : ${second}`);
+
+console.log('hello world');
