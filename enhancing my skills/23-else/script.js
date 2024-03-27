@@ -45,3 +45,19 @@ switch (vehicle){
         console.log('vehicle no worth it');
 
 }
+
+let age = 50;
+
+if (true){
+    let age = 45;
+    let car = 'auidi Q8';
+    console.log('welcome inside of the scope', age,car);
+
+    if (true){
+        let age = 30;
+        let car = 'vw golf';
+        console.log('second scope still inside', age,car);
+    }
+}
+
+console.log('outside of the global scope', age);
