@@ -9,6 +9,8 @@ let play = 'FINAL FANTASY';
 
 let game = play.toLowerCase();
 
+let result = pay.toUpperCase();
+
 console.log(game);
 
 
