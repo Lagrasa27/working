@@ -9,9 +9,19 @@ let play = 'FINAL FANTASY';
 
 let game = play.toLowerCase();
 
-let result = pay.toUpperCase();
+let result = play.toUpperCase();
 
 console.log(game);
+console.log(result);
+
+
+
+const greet = () =>  'hellor world';
+
+const result1 = greet();
+
+console.log(result1)
+
 
 
 
