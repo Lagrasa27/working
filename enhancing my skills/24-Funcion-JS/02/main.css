@@ -9,3 +9,28 @@ div{
 /*    width: 50px;*/
 /*    border: 2px solid black;*/
 /*}*/
+
+div.primer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.grande{
+    font-size: 40px;
+    color: red;
+
+}
+
+.desorden{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.orden1{
+    text-decoration: none;
+    color: blue;
+
+}
