@@ -16,3 +16,9 @@ console.log(user);
 console.log(user.name);
 console.log(user['location']);
 console.log(typeof user);
+
+
+
+
+
+
