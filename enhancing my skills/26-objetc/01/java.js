@@ -19,6 +19,26 @@ console.log(typeof user);
 
 
 
+ function ken() {
+    console.log('hello')
+};
 
+ken();
+
+
+
+let roy = (daytime = 'morning', nighttime = 'night') => {
+    console.log(`today in the ${daytime} i ate all the way to ${nighttime}`);
+};
+
+roy();
+
+
+let car = () =>{
+    console.log( 'here I am');
+
+};
+
+car();
 
 

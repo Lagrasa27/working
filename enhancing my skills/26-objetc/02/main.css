@@ -1,0 +1,20 @@
+.here{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+        justify-content: center;
+        border: 10px solid purple;
+}
+
+.adentro{
+    margin-top: 60px;
+    position: relative;
+}
+
+
+.principal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
