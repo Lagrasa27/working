@@ -69,3 +69,11 @@ personas.forEach((personajes, index,) => {
 });
 
 
+let mano = document.querySelectorAll('p');
+
+
+mano.forEach(quieto =>{
+    console.log(quieto.innerText)
+    quieto.innerText = ' lo mas duro';
+});
+
