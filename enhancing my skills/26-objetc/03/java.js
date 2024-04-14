@@ -89,3 +89,19 @@ function toUpperCase(str) {
 // Using the function
 console.log(processData("hello world", toUpperCase)); // Output: "HELLO WORLD"
 
+
+setTimeout(() => console.log('hello'),3000)
+
+
+const igloo = ['manita', 'jonathan', 'pichon']
+
+igloo.forEach((nombres) => {
+    console.log(nombres.toUpperCase())
+});
+
+
+const fox = (names, index) => {
+    console.log(`${index} - hello mrs and ms ${names}`)
+};
+
+igloo.forEach(fox);
