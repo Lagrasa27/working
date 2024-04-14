@@ -77,3 +77,15 @@ mano.forEach(quieto =>{
     quieto.innerText = ' lo mas duro';
 });
 
+
+function processData(input, callback) {
+    return callback(input);
+}
+
+function toUpperCase(str) {
+    return str.toUpperCase();
+}
+
+// Using the function
+console.log(processData("hello world", toUpperCase)); // Output: "HELLO WORLD"
+
