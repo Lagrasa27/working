@@ -35,6 +35,8 @@
 
 
 
+//practicing call back
+//down here
 
 let master = (joel,nitido) => {
     console.log('hello')
@@ -49,5 +51,21 @@ let mami = () => {
 }
 
 master(student,mami);
+
+
+let mango = () => 'hello word';
+
+let result = mango();
+
+console.log(result);
+
+
+
+const personas = ['ken', 'setsuna', 'mario', 'bowser']
+
+personas.forEach((personajes, index,) => {
+    console.log(personajes,index);
+    let result = personajes[index];
+});
 
 
