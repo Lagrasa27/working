@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid forestgreen;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+li{
+    border: 5px solid orange;
+    background-color: lightgray;
+    color: green;
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+
+}
