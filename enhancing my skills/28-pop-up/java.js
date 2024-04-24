@@ -13,3 +13,8 @@ close.addEventListener('click', ()  => {
 popup.addEventListener('click', ()  => {
     popup.style.display = 'none';
 });
+
+const parrafo = document.querySelector('.aqui');
+
+parrafo.textContent = 'esto es el especial que ahy';
+
