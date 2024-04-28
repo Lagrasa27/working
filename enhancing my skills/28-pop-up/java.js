@@ -18,3 +18,6 @@ const parrafo = document.querySelector('.aqui');
 
 parrafo.textContent = 'esto es el especial que ahy';
 
+const wepa = document.querySelector('.mio');
+
+wepa.innerHTML = "<h2> 'let's go </h2> "
