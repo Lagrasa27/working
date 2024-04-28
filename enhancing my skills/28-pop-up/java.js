@@ -20,4 +20,4 @@ parrafo.textContent = 'esto es el especial que ahy';
 
 const wepa = document.querySelector('.mio');
 
-wepa.innerHTML = "<h2> 'let's go </h2> "
+wepa.innerHTML = '<h2> lets go </h2>'
