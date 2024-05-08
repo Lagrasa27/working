@@ -9,8 +9,20 @@ e.preventDefault();
 });
 
 
+//testing regex
+const username = 'setsuna'
+const pattern = /^[a-z]{6,}$/;
 
-const calla  = document.querySelector('.calla');
+let result = pattern.test(username);
 
-calla.innerText = 'manitopapa';
+if (result){
+    console.log('info correct')
+} else {
+    console.log('error correct')
+}
 
+
+// const calla  = document.querySelector('.calla');
+//
+// calla.innerText = 'manitopapa';
+//
