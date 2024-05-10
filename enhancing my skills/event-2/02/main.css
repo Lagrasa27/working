@@ -15,6 +15,12 @@ input{
     padding: 10px;
 }
 
+.success{
+    border: 5px solid lime;
+}
+.error{
+    border: 5px solid red;
+}
 h2{
     display: block;
     font-weight: bold;
