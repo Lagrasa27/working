@@ -4,3 +4,9 @@ div{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    border: 3px solid green;
+}

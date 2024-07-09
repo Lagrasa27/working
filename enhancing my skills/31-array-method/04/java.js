@@ -8,3 +8,9 @@ const paraf = document.querySelector('p');
 
 paraf.innerText = 'retomando el ritmo';
 
+
+const border = document.querySelector('.mano');
+
+border.addEventListener('click', () => {
+    console.log('you clicked me')
+})
