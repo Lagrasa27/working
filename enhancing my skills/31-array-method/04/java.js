@@ -14,3 +14,6 @@ const border = document.querySelector('.mano');
 border.addEventListener('click', () => {
     console.log('you clicked me')
 })
+
+
+
