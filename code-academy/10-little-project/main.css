@@ -1,0 +1,32 @@
+.pattern{
+    background-image: url("../10-little-project/img/pattern.jpeg");
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120px;
+    color: khaki;
+}
+
+.brush{
+
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+
+.frame{
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+}
+
+.paint{
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+}
+span{
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
