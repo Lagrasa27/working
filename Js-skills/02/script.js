@@ -32,3 +32,11 @@ function metas (aprender, aplicar ){
 
 let result2 = metas('aplicar estas enseñanasas ', "klk " )
 console.log(result2)
+
+function performOperation(a, b, callback) {
+    let result = callback(a, b);
+    console.log(result);
+}
+
+performOperation(5, 10, numbers);
+
