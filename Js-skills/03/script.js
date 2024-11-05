@@ -29,3 +29,9 @@ function printName(name,callback){
 
 printName('jorge',makeItWorth)
 
+
+let Marcus =  (oye,age) => {
+    console.log(oye,age)
+
+}
+Marcus('klk',12)
