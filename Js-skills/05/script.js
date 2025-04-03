@@ -28,3 +28,4 @@ function printName(name1){
 
 let name2 = printName('jorge')
 console.log(name2)
+
