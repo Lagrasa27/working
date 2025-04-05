@@ -42,3 +42,22 @@ function myson(name){
 }
 
 myboy('Jorge', myson)
+
+let klk = mystacy => {
+    console.log(mystacy)
+}
+klk('weo')
+
+let numero = (a,b) => {
+    return a+b
+}
+let result = numero(10,20)
+console.log(result)
+
+
+const name3 = 'jorge'
+
+
+name3.toUpperCase()
+
+console.log(name3)
