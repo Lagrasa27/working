@@ -1,0 +1,89 @@
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+}
+
+div{
+    height: 100px;
+    color: rebeccapurple;
+}
+
+/* Callback Examples Styling */
+.callback-examples {
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.callback-examples h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.callback-examples p {
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#callback-results {
+    height: auto;
+    min-height: 50px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Styling for result blocks */
+.result-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #4285f4;
+    border-radius: 0 4px 4px 0;
+}
+
+.result-block h3 {
+    margin-top: 0;
+    color: #4285f4;
+    font-size: 16px;
+}
+
+.result-block pre {
+    margin: 10px 0 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+    color: #333;
+    overflow-x: auto;
+}
+
+/* Special styling for the async example */
+#callback-results .result-block:nth-child(3) pre {
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* Animation for when the async callback completes */
+@keyframes highlight {
+    0% { background-color: #fffde7; }
+    100% { background-color: #fff; }
+}
+
+.highlight {
+    animation: highlight 2s ease;
+}
