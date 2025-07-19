@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Thumbs Gardening Club</title>
+  <!-- Google Fonts: Lato for body, Playfair Display for headings -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<header>
+  <div class="header-content container">
+    <div class="logo-title">
+      <img src="https://placehold.co/60x60/8BC34A/FFFFFF?text=GT" alt="Club Logo" class="club-logo"
+           onerror="this.onerror=null; this.src='https://placehold.co/60x60/DDDDDD/333333?text=Logo';">
+      <h1>Green Thumbs Gardening Club</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay">
+      <div class="container">
+        <h2>Cultivating Community, One Plant at a Time</h2>
+        <p>Join us to share your passion for gardening, learn new skills, and connect with fellow plant enthusiasts!</p>
+        <a href="#contact" class="btn">Become a Member</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section container">
+    <h2>Our Story</h2>
+    <div class="about-content">
+      <img src="https://picsum.photos/id/106/600/400" alt="Garden Tools" class="about-image"
+           onerror="this.onerror=null; this.src='https://placehold.co/600x400/DDDDDD/333333?text=About+Image';">
+      <div class="about-text">
+        <p>The Green Thumbs Gardening Club was founded in 2015 by a small group of local residents who shared a common love for growing things. What started as casual meetups in backyards quickly blossomed into a thriving community dedicated to sustainable gardening practices, urban farming, and beautifying our neighborhood.</p>
+        <p>We host workshops, plant swaps, community garden projects, and educational sessions covering everything from composting to advanced horticulture. Whether you're a seasoned gardener or just starting out, you'll find a welcoming environment and plenty of opportunities to grow with us.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="events-section">
+    <div class="container">
+      <h2>Upcoming Events</h2>
+      <div class="event-grid">
+        <div class="event-card">
+          <h3>Spring Seed Swap</h3>
+          <p class="event-date">April 20, 2025 | 10:00 AM - 1:00 PM</p>
+          <p>Bring your excess seeds and swap them for new varieties! Learn about seed saving techniques.</p>
+          <a href="#" class="read-more">Learn More & RSVP</a>
+        </div>
+        <div class="event-card">
+          <h3>Composting Workshop</h3>
+          <p class="event-date">May 15, 2025 | 6:00 PM - 8:00 PM</p>
+          <p>Master the art of composting with our expert, turning kitchen scraps into garden gold.</p>
+          <a href="#" class="read-more">Learn More & RSVP</a>
+        </div>
+        <div class="event-card">
+          <h3>Community Garden Day</h3>
+          <p class="event-date">June 8, 2025 | 9:00 AM - 12:00 PM</p>
+          <p>Help us maintain and expand our local community garden. All skill levels welcome!</p>
+          <a href="#" class="read-more">Learn More & RSVP</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section container">
+    <h2>Our Green Moments</h2>
+    <div class="image-gallery">
+      <img src="https://picsum.photos/id/1080/400/300" alt="Community Garden"
+           onerror="this.onerror=null; this.src='https://placehold.co/400x300/DDDDDD/333333?text=Gallery+1';">
+      <img src="https://picsum.photos/id/1084/400/300" alt="Flower Close-up"
+           onerror="this.onerror=null; this.src='https://placehold.co/400x300/DDDDDD/333333?text=Gallery+2';">
+      <img src="https://picsum.photos/id/1085/400/300" alt="Harvest Time"
+           onerror="this.onerror=null; this.src='https://placehold.co/400x300/DDDDDD/333333?text=Gallery+3';">
+      <img src="https://picsum.photos/id/108/400/300" alt="Gardening Workshop"
+           onerror="this.onerror=null; this.src='https://placehold.co/400x300/DDDDDD/333333?text=Gallery+4';">
+      <img src="https://picsum.photos/id/110/400/300" alt="Vegetable Patch"
+           onerror="this.onerror=null; this.src='https://placehold.co/400x300/DDDDDD/333333?text=Gallery+5';">
+      <img src="https://picsum.photos/id/111/400/300" alt="Gardener at Work"
+           onerror="this.onerror=null; this.src='https://placehold.co/400x300/DDDDDD/333333?text=Gallery+6';">
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Have questions or want to join? Reach out to us!</p>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:info@greenthumbs.org">info@greenthumbs.org</a></p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Garden Lane, Plantville, USA</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Green Thumbs Gardening Club. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
