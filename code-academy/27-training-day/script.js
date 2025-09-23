@@ -15,12 +15,19 @@ const getRandEvent = () => {
 // The scope of `days` is too tight
 const getTrainingDays = event => {
     let days;
-    if (event === 'Marathon') {
-        days = 50;
-    } else if (event === 'Triathlon') {
-        days = 100;
-    } else if (event === 'Pentathlon') {
-        days = 200;
+    // Using switch-case for clearer mapping of event to days
+    switch (event) {
+        case 'Marathon':
+            days = 50;
+            break;
+        case 'Triathlon':
+            days = 100;
+            break;
+        case 'Pentathlon':
+            days = 200;
+            break;
+        default:
+            days = undefined; // or throw an error if unexpected event
     }
 
     return days;
